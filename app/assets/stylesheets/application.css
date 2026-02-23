@@ -8,3 +8,14 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ body {
+  background: #f6f7fb;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.btn {
+  border-radius: 12px;
+}
