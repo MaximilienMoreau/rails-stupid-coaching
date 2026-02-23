@@ -1,20 +1,19 @@
-<div class="container py-5">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-8 col-lg-6">
-      <div class="card shadow-sm">
-        <div class="card-body p-4">
-          <h1 class="h4 mb-3">Ask your coach anything</h1>
+<div class="horror-wrap">
+  <div class="horror-card">
+    <h1 class="horror-title">Stupid Coaching <span class="blood">after midnight</span></h1>
+    <p class="horror-subtitle">Ask your coach anything… if you dare.</p>
 
-          <form action="/answer" data-turbo="false">
-            <div class="mb-3">
-              <label for="question" class="form-label">Your question</label>
-              <input type="text" id="question" name="question" class="form-control" placeholder="e.g. What time is it?">
-            </div>
-
-            <input type="submit" value="Ask!" class="btn btn-primary w-100">
-          </form>
-        </div>
-      </div>
-    </div>
+    <form action="/answer" data-turbo="false">
+      <label for="question" class="horror-label">Your question</label>
+      <input
+        type="text"
+        id="question"
+        name="question"
+        class="horror-input"
+        placeholder="e.g. What time is it?"
+        autocomplete="off"
+      >
+      <input type="submit" value="Ask!" class="horror-btn">
+    </form>
   </div>
 </div>
